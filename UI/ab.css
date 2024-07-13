@@ -116,13 +116,16 @@
     margin-bottom: 20px;
   }
   
-  .a p,
-  .b p {
+  .a p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #565151;
+  }
+  .b p{
     font-size: 1.2rem;
     margin-bottom: 20px;
     color: #c9c7c7;
   }
-  
   .sectiona .img img,
   .sectionb .img img {
     width: 517px;
