@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ask a promt</title>
+    <link rel="stylesheet" href="ai.css">
 </head>
 <body>
     <header class="header">
@@ -28,8 +29,17 @@
           </div>
         </nav>
       </header>
-      <label for="fname">Prompt</label>
-      <input type="text" id="prompt" name="prompt"><br><br>
-      <input type="submit" value="Submit">
+      <main style="margin-top: 100px; padding: 20px;">
+        <label for="fname">Insert a prompt here</label>
+        <div class="input-container">
+            <input type="text" id="prompt" name="prompt">
+            <input type="submit" value="Submit">
+        </div>
+        <div class="answer-container">
+            <label for="answer">Answer</label>
+            <div id="answer" class="answer-box"></div>
+        </div>
+    </main>
+
 </body>
 </html>
