@@ -7,6 +7,27 @@
     <title>Ask a promt</title>
 </head>
 <body>
+    <header class="header">
+        <nav class="navbar">
+          <h2 class="logo"><a href="index.html">Emergency insight</a></h2>
+          <input type="checkbox" id="menutoggle" />
+          <label for="menutoggle" id="hambtn">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+          </label>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ab.html">About Us</a></li>
+            <li><a href="ai.html">AI</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <div class="buttons">
+            <a href="#" class="signin">Sign In</a>
+            <a href="#" class="signup">Sign Up</a>
+          </div>
+        </nav>
+      </header>
       <label for="fname">Prompt</label>
       <input type="text" id="prompt" name="prompt"><br><br>
       <input type="submit" value="Submit">
