@@ -154,14 +154,15 @@ body {
 }
 
 .sectiona .buttons .learn,
-.sectionb .buttons .join {
+.sectionb .buttons .join,
+.sectiona .buttons .join {
   border: 1px solid #fff;
   border-radius: 0.375rem;
 }
 
 .sectiona .buttons a:hover,
 .sectionb .buttons a:hover {
-  background-color: #47b2e4;
+  background-color: #3996c1;
 }
 
 #menutoggle {
